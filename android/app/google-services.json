@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "673641697665",
+    "firebase_url": "https://cafelist-50438.firebaseio.com",
+    "project_id": "cafelist-50438",
+    "storage_bucket": "cafelist-50438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673641697665:android:23ffd02f9282f1ab9dd880",
+        "android_client_info": {
+          "package_name": "com.example.rc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673641697665-i792pdlmma09uro6ie6r26fbt8dki9rp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa60T5QU_2RmUavi13peYUSew6N-Nh3EI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673641697665-i792pdlmma09uro6ie6r26fbt8dki9rp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
