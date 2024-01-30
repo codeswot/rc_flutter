@@ -112,6 +112,8 @@ class _RcHomeState extends State<RcHome> {
                                   if (kDebugMode) {
                                     print('Download URL $downloadUrl');
                                   }
+                                  _recordedFile = null;
+                                  setState(() {});
                                   _resetTimer();
                                 }
                               : null,
