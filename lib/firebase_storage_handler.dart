@@ -16,12 +16,20 @@ class FirebaseStorageHandler {
     return await task.ref.getDownloadURL();
   }
 
-  Future<String> uploadFile(File file) async {
+  Future<String> uploadFile(
+    File file, {
+    String durationText = '00:00:00',
+    int durationSecond = 0,
+  }) async {
     final task =
         await recordingsRef.child('${DateTime.now().hashCode}.aac').putFile(
               file,
               SettableMetadata(
                 contentType: 'audio/aac',
+                customMetadata: {
+                  'durationText': durationText,
+                  'durationSecond': durationSecond.toString()
+                },
               ),
             );
     return await task.ref.getDownloadURL();
