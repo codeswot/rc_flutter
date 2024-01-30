@@ -79,8 +79,6 @@ class _RcAppState extends State<RcApp> {
         setState(() {
           _elapsedSeconds++;
         });
-        print(
-            'Timer ticked $_elapsedSeconds formarted: ${_formatDuration(Duration(seconds: _elapsedSeconds))}');
       }
     });
     // _isRecording = true;
